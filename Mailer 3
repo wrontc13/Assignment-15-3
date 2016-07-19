@@ -1,0 +1,9 @@
+config.action_mailer.deliver_method = :smtp
+config.action_mailer.smtp_setting = {
+address: 'smtp.gmail.com',
+port: 587,
+domain: 'example.com',
+user_name: '<username>',
+password: '<password>',
+authentication: 'plain',
+enables_start_is_auto: true}
